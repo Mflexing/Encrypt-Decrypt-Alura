@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/Chapeu-do-Mario.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Criptografar Texto</title>
+</head>
+<body>
+
+    <!-- Cabeçalho/logo da página -->
+    <header>
+        <a href="#" rel="">
+            <img src="./assets/interrogacao.png" alt="Caixa de interrogação" class="logo">
+        </a>    
+    </header>
+
+    <!-- Corpo Principal -->
+    <main>
+        <section class="criptografar">
+            <textarea class="texto-criptografar" placeholder="Digite o texto aqui..."></textarea>
+            <div class="aviso-criptografar">
+                <img src="./assets/aviso.svg" alt="Imagem Aviso" class="img-aviso">
+                <p class="texto-aviso">Digite apenas letras minúsculas e sem acento!</p>
+            </div>
+            <div class="container-criptografar">
+                <button type="submit" class="button-criptografar">Criptografar!</button>
+                <button type="submit" class="button-descriptografar">Descriptografar!</button>
+            </div>
+        </section>
+        <section class="output">
+           <div class="container-output">
+                <img src="./assets/boneco-mario.png" alt="Imagem do Mario" class="img-mario">
+                <p class="texto-output1">Nenhum texto encontrado</p>
+                <p class="texto-output2">Digite o texto que deseja Criptografar ou Descriptografar</p>
+           </div>
+           <textarea type="text" class="output-texto" readonly></textarea>
+           <button type="submit" class="btn-copiar">Copiar</button>
+         </section>  
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p class="texto-rodape">Desenvolvido por Matheus Lino</p>
+        <a href="https://www.linkedin.com/in/matheuslino28/" rel="">
+            <img src="./assets/linkedin.svg" alt="Logo Linkedin" class="linked">
+        </a>
+        <a href="https://github.com/Mflexing" rel="">
+            <img src="./assets/github.svg" alt="Logo Github" class="git">
+        </a>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+
+</body>
+</html>
